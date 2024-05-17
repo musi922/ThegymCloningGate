@@ -9,33 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="overflow-x-hidden">
-    <section class="bg-[#333333] h-[5vh] w-full flex justify-between pl-32 pr-44 pt-3">
-        <div class="flex gap-10 text-white text-[13px] font-bold ">
-            <h1>About the University  <i class="fa-solid fa-caret-down text-[#7a7979] ml-3 "></i></h1>
-            <h1>Faculties <i class="fa-solid fa-caret-down text-[#7a7979] ml-4 "></i></h1>
-       
+    <section class="hidden lg:flex bg-[#333333] h-[5vh] w-full justify-between pl-8 lg:pl-32 pr-10 lg:pr-44 pt-3">
+        <div class="flex gap-4 lg:gap-10 text-white text-[13px] font-bold">
+            <h1>About the University  <i class="fa-solid fa-caret-down text-[#7a7979] ml-1 lg:ml-3"></i></h1>
+            <h1>Faculties <i class="fa-solid fa-caret-down text-[#7a7979] ml-2 lg:ml-4"></i></h1>
         </div>
-        <div class="flex gap-5 text-white text-[13px] font-bold ">
+        <div class="flex gap-3 lg:gap-5 text-white text-[13px] font-bold">
             <h1><i class="fa-solid fa-newspaper"></i></h1>
             <h1><i class="fa-brands fa-instagram"></i></h1>
             <h1><i class="fa-brands fa-youtube"></i></h1>
             <h1><i class="fa-brands fa-linkedin"></i></h1>
             <h1><i class="fa-brands fa-x-twitter"></i></h1>
             <h1><i class="fa-brands fa-facebook-f"></i></h1>
-
-            <div class="ml-4 text-white text-[14px] font-bold flex gap-3">
+            <div class="ml-2 lg:ml-4 text-white text-[14px] font-bold flex gap-2 lg:gap-3">
                 <h1 class="text-[#7a7979]">PT</h1>
                 <h1>EN</h1>
-
-
             </div>
-       
         </div>
     </section>
-    <section class="h-[13vh] w-full bg-[#d5d5d5] pl-32 pr-44 sticky top-0 z-50">
-        <div class="flex gap-64 text-white text-[13px] font-bold ">
-            <img src="/images/7646b389-6326-4ac3-9b1c-08276edc401b (1).svg" class="w-[30%] h-[12vh] bg-cover p">
-            <div class="flex gap-7 font-bold text-[#333333] text-[20px] uppercase pt-10">
+    
+    
+    <section class="h-[13vh] w-full bg-[#d5d5d5] pl-8 md:pl-32 pr-8 md:pr-44 sticky top-0 z-50">
+        <div class="flex justify-between items-center h-full">
+            <button class="lg:hidden text-[#333333]" id="menu-toggle-left">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+            <img src="/images/7646b389-6326-4ac3-9b1c-08276edc401b (1).svg" class="w-[30%] h-[12vh] bg-cover">
+            <div class="hidden lg:flex gap-7 font-bold text-[#333333] text-[20px] uppercase">
                 <h1>Study</h1>
                 <h1>Research</h1>
                 <h1>Innovate</h1>
@@ -43,15 +43,52 @@
                 <h1>Explore</h1>
                 <div class="ml-8 flex gap-10 font-normal normal-case w-[30%] h-[3.5vh] border-[#333333] border-b-[1px]">
                     <h1>Search</h1>
-                    <h1><i class="fa-solid fa-magnifying-glass text-[20px] "></i></h1>
-
-
+                    <h1><i class="fa-solid fa-magnifying-glass text-[20px]"></i></h1>
                 </div>
             </div>
-
+            <button class="lg:hidden text-[#333333]" id="menu-toggle-right">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
         </div>
-
+        <div class="lg:hidden flex-col gap-4 font-bold text-[#333333] text-[20px] uppercase pt-4 bg-gray-700 hidden" id="menu-left">
+            <h1 class="text-white">Study</h1>
+            <h1 class="text-white">Research</h1>
+            <h1 class="text-white">Innovate</h1>
+            <h1 class="text-white">Live</h1>
+            <h1 class="text-white">Explore</h1>
+            <div class="flex gap-4 font-normal normal-case w-full border-white border-b-[1px]">
+                <h1 class="text-white">Search</h1>
+                <h1 class="text-white"><i class="fa-solid fa-magnifying-glass text-[20px]"></i></h1>
+            </div>
+        </div>
+        <div class="lg:hidden flex-col gap-4 font-bold text-[#333333] text-[20px] uppercase pt-4 bg-gray-700 hidden" id="menu-right">
+            <h1 class="text-white">Study</h1>
+            <h1 class="text-white">Research</h1>
+            <h1 class="text-white">Innovate</h1>
+            <h1 class="text-white">Live</h1>
+            <h1 class="text-white">Explore</h1>
+            <div class="flex gap-4 font-normal normal-case w-full border-white border-b-[1px]">
+                <h1 class="text-white">Search</h1>
+                <h1 class="text-white"><i class="fa-solid fa-magnifying-glass text-[20px]"></i></h1>
+            </div>
+        </div>
     </section>
+    
+    <script>
+        document.getElementById('menu-toggle-left').addEventListener('click', function () {
+            document.getElementById('menu-left').classList.toggle('hidden');
+            document.getElementById('menu-right').classList.add('hidden');
+        });
+        document.getElementById('menu-toggle-right').addEventListener('click', function () {
+            document.getElementById('menu-right').classList.toggle('hidden');
+            document.getElementById('menu-left').classList.add('hidden');
+        });
+    </script>
+    
+    
+    
+    
+    
 
     <section class="w-full h-[70vh]  ">
         <div class="relative h-[70vh] w-full overflow-hidden">
