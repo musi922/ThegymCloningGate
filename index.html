@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="overflow-x-hidden">
     <section class="bg-[#333333] h-[5vh] w-full flex justify-between pl-32 pr-44 pt-3">
         <div class="flex gap-10 text-white text-[13px] font-bold ">
             <h1>About the University  <i class="fa-solid fa-caret-down text-[#7a7979] ml-3 "></i></h1>
@@ -32,7 +32,7 @@
        
         </div>
     </section>
-    <section class="h-[13vh] w-full bg-[#d5d5d5] pl-32 pr-44">
+    <section class="h-[13vh] w-full bg-[#d5d5d5] pl-32 pr-44 sticky top-0 z-50">
         <div class="flex gap-64 text-white text-[13px] font-bold ">
             <img src="/images/7646b389-6326-4ac3-9b1c-08276edc401b (1).svg" class="w-[30%] h-[12vh] bg-cover p">
             <div class="flex gap-7 font-bold text-[#333333] text-[20px] uppercase pt-10">
@@ -65,8 +65,13 @@
                 </div>
                 
             </div>
-            <div class="absolute ml-[-1%] mt-[16%] bg-[#a18a4d] h-[5vh] w-[4%] text-white pl-10 pt-3">
+            <div class="absolute ml-[-1%] mt-[16%] bg-[#a18a4d] h-[5vh] w-[3%] text-white pl-9 pt-3">
                 <i class="fa-solid fa-angle-left"></i>
+                
+
+            </div>
+            <div class="absolute ml-[98%] mt-[16%] bg-[#a18a4d] h-[5vh] w-[3%] text-white pl-3 pt-3">
+                <i class="fa-solid fa-angle-right"></i>
                 
 
             </div>
@@ -210,13 +215,13 @@
        
          
     </section>
-    <section class="h-[60vh]  w-full pl-32 bg-[#a18a4d] flex-col">
+    <section class="h-[63vh]  w-full pl-32 bg-[#a18a4d] flex-col">
     <div class="flex ml-[40%]">
-        <img src="/images/ric.svg" class="text-white fill-white" >
+        <img src="/images/download.svg" class="h-[10vh] absolute mt-9"  >
         <h1><a href="#" class="text-white font-semibold mt-20 absolute inline-block ml-[30%]">Learn more <i class="fa-solid fa-circle-chevron-right ml-1"></i></a>
         </h1>
     </div>
-    <div class="w-[90%] h-[20vh] ml-3 mt-32 font-bold text-[50px] flex-col text-white border-b-2">
+    <div class="w-[90%] h-[20vh] ml-3 mt-40 font-bold text-[50px] flex-col text-white border-b-2">
         <h1 class="ml-[35%]">U.PORTO IN FIGURES</h1>
             <h1 class="ml-[50%] font-thin">2022/2023</h1>
 
@@ -284,11 +289,14 @@
         </div>
 
     </section>
-    <footer class="bg-[#333333] text-white">
+    <footer class="bg-[#333333] text-white ">
+        <img src="/images/h.png" class="absolute h-[90vh] w-[50%] ml-[-22%] mt-[-2%]">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
 
-            <div class="flex-col flex-wrap justify-between border-b border-gray-700 pb-8 mb-8">
-                <div class="w-full md:w-1/2 mb-8 md:mb-0 flex gap-72 mt-9">
+
+
+            <div class="flex-col flex-wrap justify-between border-b border-gray-700 pb-20 mb-8">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0 flex gap-72 mt-9 font-thin">
                     <h3 class="text-lg font-bold text-[#a18a4d] mb-4 mt-7">Media</h3>
                     <div class="grid grid-cols-4 gap-x-64 gap-y-6 w-full">
                         <ul class=" ">
@@ -307,14 +315,16 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 mb-8 md:mb-0 flex gap-72 mt-32">
-                    <h3 class="text-lg font-bold text-[#a18a4d] mb-4 mt-7">U.Porto Portals</h3>
-                    <div class="grid grid-cols-4 gap-x-64 gap-y-12 w-full">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0 flex gap-72 mt-32 font-thin">
+                <div class="w-50%">                    
+                <h3 class="text-lg font-bold text-[#a18a4d] mb-4 mt- w-[200%]  ">U.Porto Portals</h3>
+            </div>                    
+                   <div class="grid grid-cols-4 gap-x-64 gap-y-16 w-full">
                         <ul class=" ">
-                            <li class=""><a href="#" class="hover:underline w-[10%]  h-22 absolute">CDUP - U.Porto Sports Centre</a></li>
+                            <li class=""><a href="#" class="hover:underline w-[14%]  h-22 absolute">CDUP - U.Porto Sports Centre</a></li>
                         </ul>
                         <ul class="space-y-2">
-                            <li><a href="#" class="hover:underline w-[20%]  h-22 absolute">Social Support Services of the University of Porto (SASUP)</a></li>
+                            <li><a href="#" class="hover:underline w-[20%]  h-22 absolute">Social Support Services of Porto <br>(SASUP)</a></li>
                         </ul>
                         <ul class="space-y-2">
                             <li><a href="#" class="hover:underline w-[10%]  h-22 absolute">Former Students Portal</a></li>
@@ -323,9 +333,6 @@
                             <li><a href="#" class="hover:underline w-[10%]  h-22 absolute">UPdigital Portal</a></li>                        </ul>
                         <ul class="space-y-2"> 
                             <li><a href="#" class="hover:underline w-[15%]  h-22 absolute">Educational Innovation</a></li>
-                        </ul>
-                        <ul class=" ">
-                            <li class=""><a href="#" class="hover:underline w-[10%]  h-22 absolute">CDUP - U.Porto Sports Centre</a></li>
                         </ul>
                         <ul class="space-y-2">
                             <li><a href="#" class="hover:underline w-[20%]  h-22 absolute">
@@ -337,7 +344,7 @@
                         </ul>
                         <ul class="space-y-2">
                             <li><a href="#" class="hover:underline w-[20%]  h-22 absolute">
-                                Documentation and Information Services and Resources (SRDI)</a></li>                        </ul>
+                                Documentation and Information <br>Services and Resources (SRDI)</a></li>                        </ul>
                         <ul class="space-y-2"> 
                             <li><a href="#" class="hover:underline w-[15%]  h-22 absolute">Peer Mentoring</a></li>
                         </ul>
@@ -355,7 +362,7 @@
                 
             </div>
 
-            <div class="flex justify-between items-start border-b border-gray-700 pb-8 mb-8">
+            <div class="flex gap-96 items-start border-b border-gray-700 pb-8 mb-8 ">
                 <div class="flex gap-12 font-bold text-[20px]">
                     <h1><i class="fa-solid fa-newspaper"></i></h1>
                     <h1><i class="fa-brands fa-instagram"></i></h1>
@@ -364,7 +371,7 @@
                     <h1><i class="fa-brands fa-x-twitter"></i></h1>
                     <h1><i class="fa-brands fa-facebook-f"></i></h1>
                 </div>
-                <div>
+                <div class="ml-32">
                     <h3 class="text-lg font-bold text-white mb-4">Contacts</h3>
                     <p>Reitoria da Universidade do Porto<br><br>Praça Gomes Teixeira<br>4099-002 Porto, Portugal</p>
                     <p class="mt-4"><strong>Tel.:</strong> (+351) 220 408 000</p>

@@ -608,12 +608,24 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .col-span-2 {
@@ -939,6 +951,90 @@ video {
 
 .mt-24 {
   margin-top: 6rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-\[3\%\] {
+  margin-left: 3%;
+}
+
+.ml-\[-13\%\] {
+  margin-left: -13%;
+}
+
+.ml-\[-3\] {
+  margin-left: -3;
+}
+
+.ml-\[-10\%\] {
+  margin-left: -10%;
+}
+
+.ml-\[-15\%\] {
+  margin-left: -15%;
+}
+
+.ml-\[-18\%\] {
+  margin-left: -18%;
+}
+
+.ml-\[-\%\] {
+  margin-left: -%;
+}
+
+.ml-\[-22\%\] {
+  margin-left: -22%;
+}
+
+.mt-\[-2\] {
+  margin-top: -2;
+}
+
+.mt-\[-2\\5\] {
+  margin-top: -2\5;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mr-\[-1\%\] {
+  margin-right: -1%;
+}
+
+.ml-\[5-\] {
+  margin-left: 5-;
+}
+
+.ml-\[90\%\] {
+  margin-left: 90%;
+}
+
+.ml-\[100\%\] {
+  margin-left: 100%;
+}
+
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
+.ml-\[95\%\] {
+  margin-left: 95%;
+}
+
+.ml-\[96\%\] {
+  margin-left: 96%;
+}
+
+.ml-\[98\%\] {
+  margin-left: 98%;
 }
 
 .inline-block {
@@ -1269,6 +1365,42 @@ video {
   width: 15%;
 }
 
+.w-\[14\%\] {
+  width: 14%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-\[80\^\] {
+  width: 80^;
+}
+
+.w-\[180\%\] {
+  width: 180%;
+}
+
+.w-\[280\%\] {
+  width: 280%;
+}
+
+.w-\[200\%\] {
+  width: 200%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -1466,6 +1598,24 @@ video {
 
 .gap-y-12 {
   row-gap: 3rem;
+}
+
+.gap-x-7 {
+  -moz-column-gap: 1.75rem;
+       column-gap: 1.75rem;
+}
+
+.gap-x-72 {
+  -moz-column-gap: 18rem;
+       column-gap: 18rem;
+}
+
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
+
+.gap-y-16 {
+  row-gap: 4rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -2017,6 +2167,38 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .text-center {
