@@ -3902,6 +3902,10 @@ video {
     height: 63vh;
   }
 
+  .xl\:h-\[36vh\] {
+    height: 36vh;
+  }
+
   .xl\:w-\[35\%\] {
     width: 35%;
   }
@@ -4194,6 +4198,10 @@ video {
 
   .\32xl\:h-\[63vh\] {
     height: 63vh;
+  }
+
+  .\32xl\:h-\[32vh\] {
+    height: 32vh;
   }
 
   .\32xl\:w-\[70\%\] {
