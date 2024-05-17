@@ -1540,6 +1540,10 @@ video {
   width: 50vw;
 }
 
+.w-\[27\%\] {
+  width: 27%;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -3918,6 +3922,14 @@ video {
     width: 50%;
   }
 
+  .xl\:w-\[27\%\] {
+    width: 27%;
+  }
+
+  .xl\:w-\[28\%\] {
+    width: 28%;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -4194,6 +4206,10 @@ video {
 
   .\32xl\:w-\[45\%\] {
     width: 45%;
+  }
+
+  .\32xl\:w-\[28\%\] {
+    width: 28%;
   }
 
   .\32xl\:flex-row {
