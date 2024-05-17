@@ -1049,6 +1049,10 @@ video {
   margin-left: 98%;
 }
 
+.mt-\[45\%\] {
+  margin-top: 45%;
+}
+
 .inline-block {
   display: inline-block;
 }
