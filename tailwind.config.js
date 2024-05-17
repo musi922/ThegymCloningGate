@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      letterSpacing: {
+        'extra-tight': '-0.05em',
+      }
+    },
   },
   plugins: [],
 }
