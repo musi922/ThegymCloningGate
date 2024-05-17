@@ -1336,6 +1336,10 @@ video {
   height: 2px;
 }
 
+.h-\[9\] {
+  height: 9;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -3166,6 +3170,10 @@ video {
 
   .md\:h-\[45vh\] {
     height: 45vh;
+  }
+
+  .md\:h-\[80vh\] {
+    height: 80vh;
   }
 
   .md\:w-1\/3 {
